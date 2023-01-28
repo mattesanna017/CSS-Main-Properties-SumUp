@@ -1,0 +1,176 @@
+body {
+    background: #BCFAEE;
+    background-size:cover;
+}
+
+ul {
+    list-style: decimal outside;
+}
+
+.progress {
+    cursor:progress;
+}
+
+.hover:hover{
+    color: #FFA164;
+}
+
+.last_child:last-child {
+    font-size: 1.75em;
+}
+
+.sentence:first-child {
+    font-size: 1.75em;
+}
+
+/* TEXT DECORATION */
+.underline {
+    text-decoration: underline;
+  }
+  .overline {
+    text-decoration: overline;
+  }
+  .strikethrough {
+    text-decoration: line-through;
+  }
+  .multiple {
+    text-decoration: underline overline line-through;
+  }
+  .blink {
+    text-decoration: blink;
+  }
+  .wavy {
+    text-decoration: red underline overline wavy;
+  }
+
+
+/* TEXT-TRANSFORM */
+.lowercase {text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+
+/* LINE-HEIGHT */
+.p1 {
+    line-height: 150%;
+  }
+  
+  .p2 {
+    line-height: 200%;
+  }
+  
+  .p3 {
+    line-height: 250%;
+  }
+
+/* FONT_STYLE */
+.one { font-style: italic; }
+.two { font-style: oblique; }
+
+/* FONT-WEIGHT */
+.w100 {
+    font-weight: 100;
+  }
+  
+  .w200 {
+    font-weight: 200;
+  }
+  
+  .w300 {
+    font-weight: 300;
+  }
+  
+  .w400 {
+    font-weight: 400;
+  }
+  
+  .w500 {
+    font-weight: 500;
+  }
+  
+  .w600 {
+    font-weight: 600;
+  }
+  
+  .w700 {
+    font-weight: 700;
+  }
+  
+  .w800 {
+    font-weight: 800;
+  }
+  
+  .w900 {
+    font-weight: 900;
+  }
+
+  /* TEXT-ALIGN */
+  .ta-left{
+    text-align: left;
+  }
+
+  .ta-right{
+    text-align: right;
+  }
+
+  .ta-center{
+    text-align: center;
+  }
+
+  .ta-justify{
+    text-align: justify;
+  }
+
+  .ta-inherit{
+    text-align: inherit;
+  }
+
+/* BORDER */
+.box {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 17%;
+  height: 200px;
+  margin-bottom: 1em;
+}
+
+.box-1 {
+  border: none;
+}
+
+.box-2 {
+  border: 5px hidden red;
+}
+
+.box-3 {
+  border: 5px solid orange;
+}
+
+.box-4 {
+  border: 5px dashed orange;
+}
+
+.box-5 {
+  border: 5px dotted orange;
+}
+
+.box-6 {
+  border: 5px double orange;
+}
+
+.box-7 {
+  border: 5px groove orange;
+}
+
+.box-8 {
+  border: 5px ridge orange;
+}
+
+.box-9 {
+  border: 5px inset orange;
+}
+
+.box-10 {
+  border: 5px outset orange;
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Properties</title>
+</head>
+<body>
+    <h1>CSS PROPERTIES</h1>
+    <h2><i>Exercises</i></h2><hr>
+    
+    <a href="https://www.w3schools.com/css/css_quiz.asp">CSS Quiz</a><hr>
+    <a href=https://www.w3schools.com/css/exercise.asp">CSS Exercise</a>
+    <hr>
+
+    <ul>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#background-size">background-size</a></li>
+        <li><a href="#list-style">list-style</a></li>
+        <li><a href="#cursor">cursor</a></li>
+    </ul>
+    <h4><a href="#pseudo">Pseudo-Selectors</a></h4>
+    <ul>
+        <li><a href="#hover">hover</a></li>
+        <li><a href="#last-child">last-child</a></li>
+        <li><a href="#first-child">first-child</a></li>  
+    </ul>
+
+    <h4><a href="#text-properties">Text-Properties</a></h4>
+    <ul>
+        <li><a href="#text-decoration">text-decoration</a></li>
+        <li><a href="#text-transform">text-transform</a></li>
+        <li><a href="#line-height">line-height</a></li>
+        <li><a href="#font-style">font-style</a></li> 
+        <li><a href="#font-weight">font-weight</a></li>
+        <li><a href="#font-size">font-size</a></li>      
+        <li><a href="#font-family">font-family</a></li>
+        <li><a href="#text-align">text-align</a></li>
+        <li><a href="#align-content">align-content</a></li>
+        <li><a href="#color">color</a></li>
+    </ul>
+
+    <h4><a href="#image-properties">Image Properties</a></h4>
+    <ul>
+        <li><a href="#background-image">background-image</a></li>
+        <li><a href="#float">float</a></li>
+        <li><a href="#clear">clear</a></li>  
+    </ul
+
+    <h4><a href="#box-properties">Box model</a></h4>
+    <ul>
+        <li><a href="#display">display</a></li>
+        <li><a href="#padding">padding</a></li>
+        <li><a href="#border">border</a></li>  
+        <li><a href="#margin">margin</a></li>  
+        <li><a href="#width">width</a></li>  
+        <li><a href="#height">height</a></li>  
+    </ul>
+
+    <h4><a href="#unit-of-measure">unit of measures</a></h4>
+
+
+
+    <hr>
+
+    <h3 id="background"><i>background</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/b/background/" target="_blank"><img src="./img css prop/background.PNG"></a><br><hr>
+
+    <h3 id="background-size"><i>background-size</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/b/background-size/" target="_blank"><img src="./img css prop/background-size.PNG"></a><br>
+    <p>often goes with background property</p>
+    <hr>
+
+    <h3 id="list-style"><i>list-style</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/l/list-style/" target="_blank"><img src="./img css prop/list-style.PNG"></a><br>
+
+    <h4>list-style-type</h4>
+    <ul>
+        <li>disc</li>
+        <li>circle</li>
+        <li>square</li>
+        <li>decimal</li>
+        <li>none</li>    
+    </ul>
+    <h4>list-style-position</h4>
+    <ul>
+        <li>inside</li>
+        <li>outside</li>   
+    </ul>
+    <hr>
+
+    <h3 id="cursor"><i>cursor</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/c/cursor/" target="_blank"><img src="./img css prop/cursor.PNG"></a><br>
+    <p class="progress">hover over this sentence to see a different cursor, which is the progress</p>
+    <hr>
+ 
+    <br>
+
+    <h2 id="pseudo">Pseudo Selectors</h2>
+    <h3 class="hover" id="hover"><i>:hover</i></h3>
+    <p>hover on the above title to see the effect</p>
+    <a href="https://css-tricks.com/almanac/selectors/h/hover/" target="_blank" ><img src="./img css prop/hover.PNG" ></a><br>
+    <hr>
+
+    <h3 id="last-child"><i>:last-child</i></h3>
+    <a href="https://css-tricks.com/almanac/selectors/l/last-child/" target="_blank"><img src="./img css prop/last-child.PNG"></a><br>
+
+    <article>
+        <h4>Only last paragraph has been edited</h4>
+        <p class="last_child">first paragraph</p>
+        <p class="last_child">second paragraph</p>
+        <p class="last_child">third paragraph</p>
+        <p class="last_child">last paragraph</p>
+    </article>
+    <hr>
+
+    <h3 id="first-child"><i>:first-child</i></h3>
+    <a href="https://css-tricks.com/almanac/selectors/f/first-child/" target="_blank"><img src="./img css prop/first-child.PNG"></a><br>
+
+    <article>
+        <h4>Only first paragraph has been edited</h4>
+        <p class="sentence">first paragraph</p>
+        <p class="sentence">second paragraph</p>
+        <p class="sentence">third paragraph</p>
+        <p class="sentence">last paragraph</p>
+    </article>
+
+
+    <hr><br>
+
+    <h2 id="text-properties">text Properties</h2><hr>
+    <h3 id="text-decoration"><i>text-decoration</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/t/text-decoration/" target="_blank"><img src="./img css prop/text-decoration.PNG"></a><br>
+    <a href="https://css-tricks.com/almanac/properties/t/text-decoration/" target="_blank"><img src="./img css prop/text-decoration shorthands.PNG"></a><br>
+    <p class="underline">text-decoration: underline;</p>
+    <p class="overline">text-decoration: overline;</p>
+    <p class="strikethrough">text-decoration: line-through;</p>
+    <p class="multiple">text-decoration: underline overline line-through;</p>
+    <p class="blink">text-decoration: blink;</p>
+    <p class="wavy">text-decoration: red underline overline wavy;</p> <hr>
+
+    <h3 id="text-transform"><i>text-transform</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/t/text-transform/" target="_blank"><img src="./img css prop/text-transform.PNG"></a><br>
+    <p><strong>text-transform: lowercase; :THIS WILL BE TRANSFORMED TO LOWERCASE</strong></p>
+    <p class="lowercase">THIS WILL BE TRANSFORMED TO LOWERCASE.</p>
+    <br>
+    <p><strong>text-transform: uppercase; : this will be transformed to uppercase.</strong></p>
+    <p class="uppercase">this will be transformed to uppercase.</p>
+    <br>
+    <p><strong>text-transform: capitalize; : This will be transformed to capitalize all words</strong></p>
+    <p class="capitalize">This will be transformed to capitalize all words, including both parts of this hyphenated word: double-parked.</p> <hr>
+
+
+    <h3 id="line-height"><i>line-height</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/l/line-height/" target="_blank"><img src="./img css prop/line-height.PNG"></a><br>
+
+    <p class="p1"><strong>Paragraph 1:</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+    <p class="p2"><strong>Paragraph 2:</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+    <p class="p3"><strong>Paragraph 3:</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <hr>
+
+
+    <h3 id="font-style"><i>font-style</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/f/font-style/" target="_blank"><img src="./img css prop/font-style.PNG"></a><br>
+    <p class="one">This is italic text.</p>
+    <p class="two">This is oblique text.</p>
+    <hr>
+
+    <h3 id="font-weight"><i>font-weight</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/f/font-weight/" target="_blank"><img src="./img css prop/font-weight.PNG"></a><br>
+
+    <p class="w100">This is 100 weight</p>
+  
+    <p class="w200">This is 200 weight</p>
+    
+    <p class="w300">This is 300 weight (available)</p>
+    
+    <p class="w400">This is 400 weight (available)</p>
+    
+    <p class="w500">This is 500 weight</p>
+    
+    <p class="w600">This is 600 weight (available)</p>
+    
+    <p class="w700">This is 700 weight (available)</p>
+    
+    <p class="w800">This is 800 weight (available)</p>
+    
+    <p class="w900">This is 900 weight</p>
+    <hr>
+
+    <h3 id="font-size"><i>font-size</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/f/font-size/" target="_blank"><img src="./img css prop/font-size.PNG"></a><br>
+    <hr>
+
+
+    <h3 id="font-family"><i>font-family</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/f/font-family/" target="_blank"><img src="./img css prop/font-family.PNG"></a><br>
+    <p>Consult the below website:</p>
+    <a href="https://fonts.google.com/">Google Fonts</a>
+    <hr>
+
+    <h3 id="text-align"><i>text-align</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/t/text-align/" target="_blank"><img src="./img css prop/text-align.PNG"></a><br>
+    <h4>Examples</h4>
+    <p class="ta-left">This text is left aligned.</p>
+    <p class="ta-right">This text is right aligned..</p>
+    <p class="ta-center">I’m centered!</p>
+    <p class="ta-justify">I’m justified. I fill the space exactly (except on the last line), even if I have to stretch a bit at times.</p>
+    <p class="ta-inherit">I inherit the alignment of my parent. In this case, that means left.</p>
+    <hr>
+
+    <h3 id="align-content"><i>align-content</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/t/text-align/" target="_blank"><img src="./img css prop/align-content.PNG"></a><br>
+    <h4>Syntax</h4>
+    <img src="/img css prop/align-content syntax.PNG">
+    <hr>
+
+
+    <h3 id="color"><i>color</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/c/color/" target="_blank"><img src="./img css prop/color.PNG"></a><br>
+    <a href="https://paletton.com/#uid=14W0u0kjwSj7VZeenW4o2NmsJGe">Visit here</a><hr><br>
+
+    
+
+    <h2 id="image-properties">Image Properties</h2><hr>
+    <h3 id="background-image"><i>background-image(img from unspash)</i></h3>
+    <a href="https://unsplash.com/">Use unsplash for imgs</a><br><br>
+    <a href="https://css-tricks.com/almanac/properties/b/background-image/" target="_blank"><img src="./img css prop/background-img.PNG"></a><br>
+    <img src="./img css prop/background-img2.PNG"></a><br>
+    <img src="./img css prop/background-img3.PNG"></a><br><hr>
+
+    <h3 id="float"><i>float</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/f/float/" target="_blank"><img src="./img css prop/float.PNG"></a><br><hr>
+
+    <h3 id="clear"><i>clear</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/c/clear/" target="_blank"><img src="./img css prop/clear.PNG"></a><br>
+    <hr><br>
+    
+    
+    <h2 id="box-properties">Box Model Properties(use div tag in html)</h2><hr>
+    <img src="./img css prop/boxmodel.PNG">
+    <h3 id="display"><i>display</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/d/display/" target="_blank"><img src="./img css prop/display.PNG"></a><br>
+    <img src="./img css prop/display2.PNG"><br>
+    <hr>
+
+    <h3 id="padding"><i>padding</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/p/padding/" target="_blank"><img src="./img css prop/padding.PNG"></a><br>
+    <hr>
+
+    <h3 id="border"><i>border</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/b/border/" target="_blank"><img src="./img css prop/border.PNG"></a><br>
+    <h4>Values</h4>
+    <div class="box box-1">
+        none
+      </div>
+      
+      <div class="box box-2">
+        hidden
+      </div>
+      
+      <div class="box box-3">
+        solid
+      </div>
+      
+      <div class="box box-4">
+        dashed
+      </div>
+      
+      <div class="box box-5">
+        dotted
+      </div>
+      
+      <div class="box box-6">
+        double
+      </div>
+      
+      <div class="box box-7">
+        groove
+      </div>
+      
+      <div class="box box-8">
+        ridge
+      </div>
+      
+      <div class="box box-9">
+        inset
+      </div>
+      
+      <div class="box box-10">
+        outset
+      </div>
+    
+    <hr>
+    <h3 id="margin"><i>margin</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/m/margin/" target="_blank"><img src="./img css prop/margin.PNG"></a><br>
+    <hr> 
+
+    <h3 id="width"><i>width</i></h3>
+        <a href="https://css-tricks.com/almanac/properties/w/width/" target="_blank"><img src="./img css prop/width.PNG"></a><br><hr>
+
+    <h3 id="height"><i>height</i></h3>
+    <a href="https://css-tricks.com/almanac/properties/h/height/" target="_blank"><img src="./img css prop/height.PNG"></a><br>
+    <hr><br>
+
+    <h2 id="unit-of-measure">Unit of measure</h2>
+    <a href="https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/">Visit here</a><hr>
+    <h3><i>px</i></h3><hr>
+    <h3><i>em</i></h3><hr>
+    <h3><i>rem </i></h3><hr>
+    
+
+
+</body>
+</html>
